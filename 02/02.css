@@ -1,0 +1,192 @@
+* {
+<<<<<<< HEAD
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 80%;
+}
+
+main > section > p {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+section{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#reactId {
+    background-color: blueviolet;
+}
+
+article {
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding-left : 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+ul {
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    width: 15%;
+    height: 40px;
+    padding: 5px;
+    background-color: bisque;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+li:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover{
+    color:white;
+}
+
+@media screen and (max-width : 768px){
+    ul {
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    li {
+        width: 80%;
+        margin: 2px;
+    }
+=======
+  padding: 0px;
+  margin: 0px; 
+}
+
+header {
+  padding: 20px;
+}
+
+main {
+  width : 80%;
+}
+
+main > section > p { 
+  color: yellow;
+}
+
+section {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#reactId {
+  background-color: blueviolet;
+}
+
+
+article {
+  border-left-width: 20px;
+  border-left-style: solid;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+article > p {
+  font-family: "Nanum Pen Script", serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: blue;
+}
+
+ 
+ul {
+  background-color: aquamarine;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+
+li {
+  width : 15%;
+  height: 40px;
+  padding: 5px;
+  background-color: bisque;
+  color: black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+a { 
+  text-decoration: none; 
+}
+
+a:link , a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+@media screen and (max-width : 768px){
+  ul {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  li { 
+    width: 80%;
+    margin: 2px;
+  }
+>>>>>>> cb8cc2136159f6360276074555f2e1ffd8edb779
+}
