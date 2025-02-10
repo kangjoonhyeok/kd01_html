@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0%;
     padding: 0%;
@@ -122,97 +121,6 @@ section img{
     border-radius: 50%;
 }
 
-=======
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-header, main, footer {
-  width : 80%;
-  margin-left: 10%;
-  background-color: aliceblue;
-}
-
-header {
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 30px;
-}
-
-nav > ul {
-  display: flex;
-}
-
-nav li { 
-  display: inline-flex;
-  padding: 5px 10px;
-  background-color: blue;
-  color: white;
-  margin-left: 5px;
-  border-radius: 5px;
-}
-
-a {
-  width: 100%;
-  text-decoration: none;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-  color: white;
-}
-
-li:hover, a:hover {
-  background-color: brown;
-}
-
-
-main {
-  padding: 20px;
-}
-
-main > article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-article > h1 {
-  margin: 20px;
-}
-
-section {
-  background-color: white;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-}
-
-section > div {
-  display: flex;
-}
-
-section > h2 {
-  margin-bottom: 10px;
-  background-color: gainsboro;
-  padding: 10px;
-}
-
-section p {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-}
-
-section img {
-  border-radius: 50%;
-}
 
 @media only screen and (max-width : 1024px) {
   header, main, footer {
@@ -222,4 +130,3 @@ section img {
     padding : 20px;
   }
 }
->>>>>>> cb8cc2136159f6360276074555f2e1ffd8edb779
