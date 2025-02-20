@@ -1,0 +1,45 @@
+#msgLotto > span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+
+    border-radius: 50%;
+    font-size: 15px;
+
+    margin-bottom: 40px;
+}
+
+.spplus{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.sp0 {
+    color: white;
+    background-color: brown;
+}
+
+.sp1 {
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+.sp2 {
+    color: white;
+    background-color: cadetblue;
+}
+
+.sp3 {
+    color: white;
+    background-color: darkmagenta;
+}
+
+.sp4 {
+    color: white;
+    background-color: indigo;
+}
