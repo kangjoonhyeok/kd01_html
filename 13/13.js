@@ -1,7 +1,7 @@
 //영화진흥위원회
 const mvApi = 'b2de8d2086e4712724ce826185cd9d21';
 //영화진흥위원회
-const baseMvUrl = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
+const baseMvUrl = `https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
                     
 //TMDB
 const rmdbApi = '063d383d56921ac223f1e3a619c101f3';
