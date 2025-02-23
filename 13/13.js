@@ -1,11 +1,10 @@
 //영화진흥위원회
-const mvApi = 'b2de8d2086e4712724ce826185cd9d21';
-//영화진흥위원회
 const baseMvUrl = `https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
+const mvApi = 'b2de8d2086e4712724ce826185cd9d21';
                     
 //TMDB
-const rmdbApi = '063d383d56921ac223f1e3a619c101f3';
 const baseTMDBUrl = 'https://api.themoviedb.org/3/search/movie?';
+const rmdbApi = '063d383d56921ac223f1e3a619c101f3';
 
 //영화포스터 저장 배열
 let posterArr = [];
@@ -18,7 +17,6 @@ const getPoster = async (movieNm) => {
     const resp = await fetch(url);
     const data = await resp.json();
 
-    // console.log('baseTMDBUrl',url, data.results[0].poster_path)
     if (data == undefined)
         posterArr.push('');
     else
@@ -31,7 +29,6 @@ const getBoxOfficeList = async () => {
     const mvPoster = document.querySelector('#mvPost');
     const mvType = document.querySelector('[type=radio]:checked').value;
     const dt = document.querySelector('[type=date]').value.replaceAll('-', '');
-    console.log("mvType", mvType, dt);
 
     //포스터 배열 초기화
     posterArr = [];
@@ -39,7 +36,6 @@ const getBoxOfficeList = async () => {
     if(mvType == 'K' || mvType == 'F'){
         url = `${url}&repNationCd=${mvType}`;
     }
-    console.log(url);
     //fetch
     const resp = await fetch(url);
     const data = await resp.json();
@@ -66,7 +62,6 @@ const getBoxOfficeList = async () => {
         })
     }
     
-    console.log("posterArr", posterArr);
 }
 
 
