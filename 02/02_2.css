@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+header, main, footer{
+    margin: 20px;
+}
+
+header > p{
+    margin: 20px;
+    font-weight: bold;
+    color: darkgray;
+}
+
+/* nav > ul > li:hover{
+    background-color: chocolate;
+} */
+
+nav li:hover{
+    background-color: chocolate;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+nav li{
+    padding: 10px;
+    margin: 5px;
+    background-color: skyblue;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+
+header{
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+section > h2{
+    margin-bottom: 10px;
+    color: skyblue;
+}
+
+section > div{
+    display: flex;
+}
+
+section > div > div{
+    width:20%;
+}
+
+section > div > p{
+    width: 80%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size:small;
+}
+
+footer > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+@media screen and (min-width : 1024px){
+    #content{
+        width:80%;
+        margin-left:10%;
+    }
+}
