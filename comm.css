@@ -13,21 +13,24 @@
     flex-direction: column;
 }
 
-header, main {
+header{
     width: 100%;
     display: flex;
+    
     padding: 20px;
     border: 1px darkblue solid;
-}
-
-header {
     background-color: darkblue;
     color: white;
+    margin-bottom: 100px;
+
 
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
+
+
+
 
 main {
     width: 100%;
@@ -40,6 +43,8 @@ section, section > div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 20px;
 }
 
 
